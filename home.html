@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<title> موقع كتابي  </title>
+</head>
+<body>
+
+<div class="container" >
+	
+
+<div class="common">
+	
+
+<h3 class="m">البريد الإلكتروني </h3>
+<p  class="y">kitabi@yandex.com</p>
+</div>
+
+
+<div class="cake">
+
+<h3 id="ca"> كتابي  </h3>
+</div>
+
+
+<div class="common">
+<h3 class="p"> </h3>
+<p></p>
+</div>
+</div>
+
+
+<div class="menubar">
+
+<ul>
+<li><a href="home.html">  الصفحة الرئيسية </a> </li>	
+<li><a href="about.html">من نحن </a> </li>
+<li><a href="books.html">   المتجر   </a>  </li>
+<li><a href="gallery.html">الصور </a>  </li>
+<li><a href="news.html">اخبار </a> </li>
+<li><a href="contact.html">التواصل معنا </a>  </li>
+
+</ul>
+
+</div>
+
+<div class="background">
+	
+<h3 id="zer">   مرحبا بكم في   </h3>
+<h1 id="op">  موقع كتابي  </h1>
+<p class="op">  </p>
+
+
+
+
+
+</div>
+</div>
+
+<p>
+	
+</p>
+
+<div class="background2">
+
+
+<h2 class="hp">   المؤلفون  </h3>
+<table width="100%"  border= "0px"  >
+
+<tr>
+	
+<td class="y"> <a href="">   حسام الدين بومزبر  </a>    </td>
+<td class="y">  <a href="">     المؤلفون    </a>   </td>
+
+</tr>
+
+<tr>
+	
+<td class="y"> <a href="">    المؤلفون   </a>  </td>
+<td class="y"></td>
+
+</tr>
+
+</table>
+
+
+</div>
+
+<!-- -------------- -->
+
+
+        <link href="style.css" rel="stylesheet">
+       
+            <!--inter-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+            <!--Archivo-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <section class="topstrip"></section>
+            <h1><a href="Home.html"></a></h1>
+            <p></p>
+        
+        
+  
+
+    <footer class="footervisible">
+        <section class="container">
+            <section class="footer-section">
+                <h2>Kitabi</h2>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Donations</a></li>
+                </ul>
+            </section>
+            <section class="footer-section">
+                <h2>Content</h2>
+                <ul>
+                    <li><a href="#">Popular Titles</a></li>
+                    <li><a href="#">New Titles</a></li>
+                    <li><a href="#">Genres</a></li>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">Merchandise</a></li>
+                </ul>
+            </section>
+            <section class="footer-section">
+                <h2>Social</h2>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </section>
+            <section class="footer-section">
+                <h2>More</h2>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </section>
+        </section>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+<script>
+
+/*
+ @ElmahdiMahmoud
+ May 19, 2013
+*/
+$(".view a").on('click', function(){
+    $('.products ul').toggleClass('list');
+    return false;
+});
+
+</script>
+
+
+<script>
+
+
+
+ // Header slider
+    $('.header-slider').slick({
+        autoplay: true,
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+    
+    
+    // Product Slider 4 Column
+    $('.product-slider-4').slick({
+        autoplay: true,
+        infinite: true,
+        dots: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+        ]
+    });
+    
+    
+    // Product Slider 3 Column
+    $('.product-slider-3').slick({
+        autoplay: true,
+        infinite: true,
+        dots: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+        ]
+    });
+    
+    
+    // Product Detail Slider
+    $('.product-slider-single').slick({
+        infinite: true,
+        autoplay: true,
+        dots: false,
+        fade: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        asNavFor: '.product-slider-single-nav'
+    });
+    $('.product-slider-single-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true,
+        asNavFor: '.product-slider-single'
+    });
+    
+    
+    // Brand Slider
+    $('.brand-slider').slick({
+        speed: 5000,
+        autoplay: true,
+        autoplaySpeed: 0,
+        cssEase: 'linear',
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        infinite: true,
+        swipeToSlide: true,
+        centerMode: true,
+        focusOnSelect: false,
+        arrows: false,
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 300,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+    
+    
+    // Review slider
+    $('.review-slider').slick({
+        autoplay: true,
+        dots: false,
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+    
+    
+    // Widget slider
+    $('.sidebar-slider').slick({
+        autoplay: true,
+        dots: false,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
