@@ -7,7 +7,7 @@ background-color black;
 background-image: url(ca.jpg);
 background-attachment: scroll;
 background-position: center;
-width: 50%; }
+width: 100%; }
 }
 
 @media (min-width:1281px){
@@ -48,18 +48,30 @@ font-family: arial;
 {
 
 }
-
+@media (min-width:320px) {
+#ca 
+{
+border-style solid;
+border-color silver;
+text-align: center;
+font-size: 10px;
+color: white;
+font-weight: bolder;
+font-family: arial;
+width: 50%;	
+}
+}
+@media (min-width:1281px){
 #ca 
 {
 border-style solid;
 border-color silver;
 text-align: center;
 font-size: 40px;
-
 color: white;
 font-weight: bolder;
 font-family: arial;
-
+}
 }
 
 
