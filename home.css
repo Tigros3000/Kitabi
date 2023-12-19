@@ -148,6 +148,18 @@ width: ;
 }
 }
 
+
+@media (min-width:320px) {
+a 
+{
+color: white;
+font-size: 5px;
+font-family: arial;
+margin-right: 20px;
+font-weight: bold;
+}
+
+@media (min-width:1281px) {
 a 
 {
 color: white;
@@ -155,8 +167,8 @@ font-size: 25px;
 font-family: arial;
 margin-right: 30px;
 font-weight: bold;
-
 }
+
 
 a:link 
 {
