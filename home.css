@@ -5,7 +5,7 @@ body {
 
 background-color black;
 background-image: url(ca.jpg);
-background-attachment: scroll;
+background-attachment: fixed;
 background-position: center;
 width: 100%; }
 }
@@ -125,13 +125,26 @@ li
 display: inline-block;
 }
 
+@media (min-width:320px) {
 ul 
+{
+background: silver;
+height: 30px;
+text-align: center;
+margin-top: 0px;
+padding-top: 15px;
+width: 50%; 
+}
+}
+@media (min-width:1281px){
+ul
 {
 background: silver;
 height: 60px;
 text-align: center;
 margin-top: 0px;
 padding-top: 15px;
+}
 }
 
 a 
