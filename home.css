@@ -3,25 +3,22 @@
 @media (min-width:320px) {
 body {
 
-background-color black;
-background-image: url(ca.jpg);
+background-color: silver;
+background-image:;
 background-attachment: fixed;
 background-position: center;
-background-repeat: no-repeat;
-width:320px;
-height:500px;
+
 }
 }
 
 @media (min-width:1281px){
 body {
 
-background-color black;
-background-image: url(ca.jpg);
+background-color: silver;
+background-image: ;
 background-attachment: fixed;
 background-position: center;
-background-repeat: no-repeat;
-width: 100%; }
+ }
 }
 
 .m
