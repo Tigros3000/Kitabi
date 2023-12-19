@@ -7,7 +7,7 @@ background-color: silver;
 background-image:;
 background-attachment: fixed;
 background-position: center;
-
+width: 320px;
 }
 }
 
@@ -18,6 +18,7 @@ background-color: silver;
 background-image: ;
 background-attachment: fixed;
 background-position: center;
+width: 1200px;	
  }
 }
 
@@ -197,15 +198,7 @@ a:active
 text-decoration: none;
 }
 
-.background2
-{
 
-height: ;
-background-position: center;
-background-size: cover;
-margin-top: 150px;
-height: ;
-}
 
 .pa 
 {
