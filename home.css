@@ -136,7 +136,7 @@ height: 30px;
 text-align: center;
 margin-top: 0px;
 padding-top: 15px;
-width: ; 
+margin-left: 20px;
 }
 }
 @media (min-width:1281px){
@@ -148,6 +148,7 @@ text-align: center;
 margin-top: 0px;
 padding-top: 15px;
 width: ; 
+margin-left: 20px;
 }
 }
 
@@ -156,7 +157,7 @@ width: ;
 a 
 {
 color: darkred;
-font-size: 10px;
+font-size: 5px;
 font-family: arial;
 margin-right: 10px;
 font-weight: bold;
@@ -166,7 +167,7 @@ text-decoration: none;
 @media (min-width:1281px) {
 a 
 {
-color: white;
+color: darkred;
 font-size: 25px;
 font-family: arial;
 margin-right: 20px;
@@ -191,7 +192,7 @@ a:hover
 
 {
 text-decoration: none;
-color: darkred;
+color: white;
 
 }
 
