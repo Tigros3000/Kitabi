@@ -131,7 +131,7 @@ display: inline-block;
 @media (min-width:320px) {
 ul 
 {
-background: silver;
+background: black;
 height: 30px;
 text-align: center;
 margin-top: 0px;
@@ -142,7 +142,7 @@ width: ;
 @media (min-width:1281px){
 ul
 {
-background: silver;
+background: black;
 height: 60px;
 text-align: center;
 margin-top: 0px;
@@ -156,7 +156,7 @@ width: ;
 a 
 {
 color: white;
-font-size: 5px;
+font-size: 20px;
 font-family: arial;
 margin-right: 20px;
 font-weight: bold;
